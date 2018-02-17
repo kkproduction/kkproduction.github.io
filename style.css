@@ -55,6 +55,8 @@ a:visited
 	margin-right: 100px;
 	margin-bottom: 30px;
 	height: 20px;
+	padding-right: 300px;
+	padding-left: 300px;
 }
 .chref
 {
@@ -78,8 +80,8 @@ a:visited
 {
 	background-color: #78909C;
 	border-radius: 10px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 400px;
+	margin-right: 400px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	margin-top: 20px;
@@ -89,15 +91,14 @@ a:visited
 {
 	background-color: #37474F;
 	padding: 30px;
-	border-radius: 10px;
-	margin-bottom: 20px;
+	border-radius: 10px 10px 0 0;
 	margin-right: 50px;
 	margin-left: 50px;
 }
 .content
 {
 	background-color: #455A64;
-	border-radius: 10px;
+	border-radius: 0 0 10px 10px;
 	padding-left:30px;
 	padding-top: 25px;
 	padding-right: 30px;
