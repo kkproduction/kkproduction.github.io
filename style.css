@@ -7,111 +7,79 @@ body
 	font-family: Lucids Console,sans-serif;
 	background:#546E7A;
 	color: #ECEFF1;
-	font-size: 16;
+	font-size: 100%;
+	display: flex;
+  	min-height: 100vh;
+  	flex-direction: column;
 }
 
 header
 {
-	font-family: Lucida Sans Unicode,sans-serif;
 	background-color: #37474F;
-	padding: 10px;
-	border-radius:0 0 10px 10px;
-	text-align: center;
-	font-size: 60;
-	margin-bottom: 15px;
+	padding: 1rem;
+	margin-bottom: 1rem;
 }
-.bonus
+.logo
 {
-	font-weight: 900;
-}
-h1
-{
-	font-size: 26;
-	text-align: center;
-	margin-bottom: 15px;
-}
-h2
-{
-	font-size: 21;
-}
-p
-{
-	text-align: justify;
+	font-family: Lucids Console,sans-serif;
+	text-align: left;
+	font-size: 200%;
+	font-weight: 600;
 }
 a
 {
 	color: #ECEFF1;
-	font-size: 16;
+	font-size: 0.4rem;
+}
+a:hover
+{
+	background-color: red;
 }
 a:visited
 {
 	color: #ECEFF1;
 }
-.menu
+article
+{
+	flex: 1;
+}
+.stack
 {
 	display: flex;
-	justify-content: space-between;
-	margin-bottom: 30px;
-	height: 20px;
-	padding-left: 5%;
-	padding-right: 5%;
-}
-.chref
-{
-	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
-}
-.image
-{
-	display: inline-block;
-	width: 128px;
-	height: 128px;
-	margin:10px;
-}
-.icoh
-{
-	height: 128px;
-	width: 128px;
+	justify-content: space-around;
+	margin-bottom: 1rem;
+	padding-left: 5rem;
+	padding-right: 5rem;
 }
 .block
 {
-	background-color: #78909C;
-	border-radius: 10px;
-	max-width: 55%;
-	text-align:center;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	margin-top: 20px;
-	margin-bottom: 20px; 
-	margin: 0 auto 0 auto
-	
+	max-width: 33%;
+	width: 40%;
+	margin: 0.5rem;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
 }
 .name
 {
 	background-color: #37474F;
-	padding: 30px;
-	border-radius: 10px 10px 0 0;
-	margin-right: 50px;
-	margin-left: 50px;
+	padding: 0.5rem;
+	text-align: left;
+	font-size: 180%;
 }
 .content
 {
 	background-color: #455A64;
-	border-radius: 0 0 10px 10px;
-	padding-left:30px;
-	padding-top: 25px;
-	padding-right: 30px;
-	padding-bottom: 15px;
-	margin-right: 50px;
-	margin-left: 50px;
+	padding: 0.5rem;
+	text-align:justify;
+	font-size: 110%
 }
 footer
 {
-	border-radius:10px 10px 0 0;
 	background-color: #37474F; 
 	text-align: left;
-	padding: 10px;
+	padding: 1rem;
 }
 br
 {
@@ -122,13 +90,11 @@ br
 {
 	margin-right: 4px;
 	float: right;
-	
 }
 .icof
 {
 	height: 32;
 	width: 32;
 	background-color:#78909C;
-	border-radius: 10px;
 	text-align: center;
 }
