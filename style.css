@@ -4,7 +4,7 @@ margin:0;
 }
 body
 {
-	font-family: Lucids Console,sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background:#DFE3E4;
 	color: #DFE3E4;
 	font-size: 100%;
@@ -22,32 +22,36 @@ header
 }
 .logo
 {
-	font-family: Lucids Console,sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align: left;
 	font-size: 200%;
 	font-weight: 600;
 }
-
-.a:hover
+.href
 {
-	background-color: #DFE3E4;
-	color: #404055;
-	box-shadow: 0 0 1rem 0 grey;
-}
-.a:visited
-{
-	color: #404055;
+	display: flex;
+	flex-direction:column;
+	text-align: center;
 }
 .a
+{
+	text-decoration: none;
+	color: #404055;
+}
+.h
 {
 	font-size: 120%;
 	padding: 0.2rem;
 	color: #404055;
-	text-decoration: none;
-} 
-.h
+}
+.h:hover
 {
-	margin-top: 0.4rem;
+	background-color: #DFE3E4;
+}
+.h:visited
+{
+	text-decoration: none;
+	color: #404055;
 }
 article
 {
@@ -58,8 +62,8 @@ article
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: left;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;	
+	padding-left: 1.4rem;
+	padding-right: 1.4rem;	
 }
 .shadow
 {
@@ -67,7 +71,7 @@ article
 }
 .block
 {
-	max-width: 36.5rem;
+	max-width: 34rem;
 	margin: 1.5rem;
 	display: flex;
 	flex-direction: column;
@@ -84,16 +88,13 @@ article
 .content
 {
 	background-color: white;
-	padding: 0.5rem;
 	text-align:justify;
 	font-size: 110%;
 	color: #1B1521;
 }
-.href
+.contents
 {
-	display: flex;
-	flex-direction:column;
-	text-align: center;
+	padding: 0.5rem;
 }
 footer
 {
