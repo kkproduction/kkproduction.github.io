@@ -8,17 +8,18 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background: #DFE3E4;
+
 }
 
 header {
     color: #DFE3E4;
     background-color: #404055;
     padding: 1rem;
+    box-shadow: 0 0.3rem 1rem 0 grey;
+    margin-bottom: 1.5rem;
 }
-.headershadow
-{
-	box-shadow: 0 0.3rem 1rem 0 grey;
-}
+
 .logo {
     font-family: 'Roboto', sans-serif;
     text-align: left;
@@ -28,12 +29,12 @@ header {
 
 article {
     flex: 1;
-    background: #DFE3E4;
     color: #DFE3E4;
     font-size: 100%;
+
 }
 
-.blackboard {
+.card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
@@ -41,10 +42,9 @@ article {
     padding-right: 1.4rem;
 }
 
-.block {
+.card {
     max-width: 34rem;
     margin: 1.5rem;
-    margin-top: 3rem;
     display: flex;
     flex-direction: column;
     text-align: justify;
