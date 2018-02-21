@@ -43,7 +43,7 @@ article {
 }
 
 .card {
-    max-width: 34rem;
+    max-width: 36rem;
     margin: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -105,3 +105,19 @@ footer a {
     flex: 1;
 }
 
+@media screen and (max-width:900px)
+{
+	.logo {
+    text-align: center;
+}
+	.card-container {
+    justify-content: center;
+}
+
+	.card {
+    max-width: 60rem;
+    margin: 1.5rem;
+}
+	.name {
+    text-align: center;
+}
