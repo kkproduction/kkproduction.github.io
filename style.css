@@ -121,3 +121,13 @@ footer a {
 	.name {
     text-align: center;
 }
+}
+
+@media screen and (max-width:1366px)
+{
+    .card {
+    max-width: 38rem;
+    margin: 1.5rem;
+}
+
+}
