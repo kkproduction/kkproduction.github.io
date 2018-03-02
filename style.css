@@ -126,8 +126,11 @@ footer a {
 @media screen and (max-width:1366px)
 {
     .card {
-    max-width: 38rem;
+    max-width: 75%;
     margin: 1.5rem;
+}
+    .card-container {
+    justify-content: center;
 }
 
 }
