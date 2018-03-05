@@ -8,13 +8,13 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    background: #DFE3E4;
+    background: #ACF0F2;
 
 }
 
 header {
-    color: #DFE3E4;
-    background-color: #404055;
+    color: white;
+    background-color: #1595A3;
     padding: 1rem;
     box-shadow: 0 0.3rem 1rem 0 grey;
     margin-bottom: 1.5rem;
@@ -22,14 +22,14 @@ header {
 
 .logo {
     font-family: 'Roboto', sans-serif;
-    text-align: left;
-    font-size: 200%;
-    font-weight: 600;
+    text-align: center;
+    font-size: 250%;
+    font-weight: 900;
 }
 
 article {
     flex: 1;
-    color: #DFE3E4;
+    color: white;
     font-size: 100%;
 
 }
@@ -37,14 +37,16 @@ article {
 .card-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     padding-left: 1.4rem;
     padding-right: 1.4rem;
 }
 
 .card {
-    max-width: 36rem;
-    margin: 1.5rem;
+    max-width: 60%;
+    margin-left: 5% ;
+    margin-right: 5%;
+    margin-bottom: 1.5rem;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -55,10 +57,10 @@ article {
 }
 
 .name {
-    background-color: #404055;
+    background-color: #1595A3;
     padding: 0.5rem;
     padding-left: 1rem;
-    text-align: left;
+    text-align: center;
     font-size: 180%;
 
 }
@@ -68,33 +70,35 @@ article {
     text-align: justify;
     font-size: 110%;
     color: #1B1521;
-    padding: 0.5rem;
+    padding-top: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 0.5rem;
 
 }
 
 .link a {
     text-decoration: none;
     background-color: white;
-    color: #404055;
+    color: #1595A3;
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-size: 120%;
+    font-size: 150%;
     padding: 0.2rem;
 }
 
 .link a:hover {
-    background-color: #DFE3E4;
+    background-color: #1595A3;
+    color: white;
 }
 
 footer {
-    color: #DFE3E4;
-    background-color: #404055;
-    padding: 1rem;
+    color: #ACF0F2;
+    background-color: #1595A3;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
 footer a {
@@ -107,30 +111,8 @@ footer a {
 
 @media screen and (max-width:900px)
 {
-	.logo {
-    text-align: center;
-}
-	.card-container {
-    justify-content: center;
-}
-
 	.card {
-    max-width: 60rem;
-    margin: 1.5rem;
-}
-	.name {
-    text-align: center;
-}
-}
+    max-width: 95rem;
 
-@media screen and (max-width:1366px)
-{
-    .card {
-    max-width: 75%;
-    margin: 1.5rem;
 }
-    .card-container {
-    justify-content: center;
-}
-
 }
