@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+ * {transition: all .3s;}
+
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -58,8 +60,7 @@ article {
 
 .name {
     background-color: #1595A3;
-    padding: 0.5rem;
-    padding-left: 1rem;
+    line-height:2.5rem;
     text-align: center;
     font-size: 180%;
 
@@ -70,10 +71,7 @@ article {
     text-align: justify;
     font-size: 110%;
     color: #1B1521;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 0.5rem;
+    padding: 1rem;
 
 }
 
@@ -86,6 +84,7 @@ article {
     text-align: center;
     font-size: 150%;
     padding: 0.2rem;
+    margin: 0 0 0 0;
 }
 
 .link a:hover {
@@ -107,12 +106,33 @@ footer a {
 
 .spacer {
     flex: 1;
+    visibility: hidden;
 }
 
 @media screen and (max-width:900px)
 {
-	.card {
+.card {
     max-width: 95rem;
-
+    margin-left: 0 ;
+    margin-right: 0;
+}
+.card-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+.content {
+    text-align: left;
+}
+.spacer {
+    flex: 0;
+    visibility: hidden;
+}
+footer {
+    color: #ACF0F2;
+    background-color: #1595A3;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    text-align:center;
 }
 }
